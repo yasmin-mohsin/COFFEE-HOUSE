@@ -1,0 +1,124 @@
+@font-face{
+    src: url(../fonts/TahtaDemo/Tahta\ Demo.otf);
+    font-family: TahtaDemo;
+}
+
+@font-face{
+    src: url(../fonts/joy-neon-4195936/Joy\ Neon\ Hollow.ttf);
+    font-family: joy-neon;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #edebed;
+}
+
+.divBody{
+    background: linear-gradient(rgba(255, 255, 255, 0.205), rgba(255, 255, 255, 0.192)),url(../IMAGES/pexels-kaboompics-com-6347.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-family: TahtaDemo;
+    text-align: center;
+    padding-top: 7%;
+    color: #3e1a16;
+    
+}
+
+.offerBtn{
+    border-radius: 30%;
+    background-color: #9c7862;
+    width: fit-content;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+    padding: 0%;
+    color: #3e1a16;
+}
+.offerBtn:hover{
+    color: #3e1a16;
+}
+
+.headOffer{
+    font-family: TahtaDemo;
+    font-size: 60px;
+    font-weight: bolder;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+
+
+@media (min-width: 700px){
+    .divBody{
+        height: 800px;
+        font-size: 80px;
+        font-weight: bolder;
+        word-spacing: 8px;
+        letter-spacing: 5px;
+    }
+    
+    .offerBtn{
+        margin: 6% auto;
+        font-size: 30px;
+        font-weight:200;
+    }
+
+    .imgOff{
+        height: 300px;
+    }
+
+    .discOffer{
+        font-family: joy-neon;
+        font-weight: bolder;
+        font-size: x-large;
+        color: #7e4704;
+    }
+
+    .discripOffer{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        font-weight: bolder;
+        color: #090806;
+        
+    }
+}
+
+@media (max-width:700px){
+    .divBody{
+        height: 600px;
+        font-size: 50px;
+        font-weight: 600;
+        word-spacing: 4px;
+        letter-spacing: 2px;
+    }
+    
+    .offerBtn{
+        margin: 30% auto;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    
+    .imgOff{
+        height: 250px;
+    }
+
+    .discOffer{
+        font-family: joy-neon;
+        font-weight: 700;
+        font-size: large;
+        color: #7e4704;
+    }
+
+    .discripOffer{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: small;
+        font-weight: bold;
+        color: #090806;
+        
+    }
+}
+

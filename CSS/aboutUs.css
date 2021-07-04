@@ -1,0 +1,39 @@
+@font-face{
+    src: url(../fonts/TahtaDemo/Tahta\ Demo.otf);
+    font-family: TahtaDemo;
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #edebed;
+}
+
+h1{
+    text-align: center;
+    font-family: TahtaDemo;
+    font-size: 90px;
+    color: #30110e
+}
+
+h3{
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.aboutUs{
+    border-bottom: 2px solid #9e542e;
+    border-radius: 5%;
+    box-shadow: 0px 4px 7px #9c7862;
+}
+
+.barnces{
+    margin: 2%;
+
+}

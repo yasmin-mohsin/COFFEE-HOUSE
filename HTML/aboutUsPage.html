@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE HOUSE-About US</title>
+    <link rel="icon" href="../IMAGES/coffee-beans-48.png">
+    <link href="../CSS/welcomPage.css" rel="stylesheet">
+    <link href="../BOOTSTRAP/css/bootstrap.css" rel="stylesheet" />
+    <link href="../CSS/naveBar.css" rel="stylesheet">
+    <link href="../CSS/footer.css" rel="stylesheet">
+    <link href="../CSS/aboutUs.css" rel="stylesheet">
+</head>
+<body>
+    <!-- navBar -->
+    <div class="navBarDiv sticky-top">
+        <nav class="navbar">
+            <img src="../IMAGES/pageLogo.png" class="imgLogo"> <!--logo-->
+            <!-- navBar btn -->
+            <ul class="navOpt ">
+                <!-- welcom -->
+                <li class="navBarLi">
+                    <a href="welcomPage.html" class="navOptLinks p-3">Welcom</a>
+                </li>
+                <!-- shop -->
+                <li class="navBarLi">
+                    <a href="../HTML/shopPage.html" class="navOptLinks p-3">Shop</a>
+                </li>
+                <!-- about us -->
+                <li class="navBarLi">
+                    <a href="../HTML/aboutUsPage.html" class="navOptLinks p-3">About US</a>
+                </li>
+            </ul>
+            <!-- login btn -->
+            <a data-toggle="modal" data-target="#exampleModal3" href="#" class="logInIcon">
+                Login <i class="fas fa-sign-in-alt"></i>
+            </a>
+            <!-- model login -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModal3Label">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <!-- login form -->
+                        <form action="/action_page.php" class="form-container">
+                            <h1>Login</h1>
+                        
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" required>
+                        
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+                        
+                            <button type="submit" class="btn">Login</button>
+                            <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+                          </form>
+
+
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+
+    <h1>ABOUT US</h1>
+    <div class="aboutUs m-4 p-3">
+        <h3>Who we are</h3>
+        <p>We are a team loving coffe so we wanted to share it with whole the world.</p>
+    </div>
+
+    <div class="aboutUs m-4 p-3">
+        <h3>What we do</h3>
+        <p>We serving you an amazing coffe in different images made with the beast coffe beans grown in our farms spcially to you.</p>
+    </div>
+
+    <div class="aboutUs m-4 p-3">
+        <h3>where we are</h3>
+        <p>we started in a small place in El-mahalla and now we grow up and have another places in different cities 
+            <ul class="barnces">
+                <li>Mansoura</li>
+                <li>Khafr-Elshikh</li>
+                <li>cairo... soon</li>
+            </ul>
+        </p>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footerContainer">
+            <div class="follow">
+                <p>Follow US</p>
+                <!-- social links -->
+                <ul class="footerUl">
+                    <!-- faceBook -->
+                    <li>
+                        <a href="https://www.facebook.com/" class="footerIcons"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <!-- twitter -->
+                    <li>
+                        <a href="https://www.twitter.com" class="footerIcons"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <!-- instagram -->
+                    <li>
+                        <a href="https://www.instagramcom" class="footerIcons"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <!-- linkedIn -->
+                    <li>
+                        <a href="https://www.linkedin.com" class="footerIcons"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="follow">
+                <p>Our Branchs</p>
+                <ul class="footerUl">
+                    <li>Mansoura -</li>
+                    <li>Elmahalla -</li>
+                    <li>Khafr-Elshikh</li>
+                </ul>
+            </div>
+            <div class="follow">
+                <p>Contact</p>
+                <ul class="footerUl">
+                    <li>0402385652 -</li>
+                    <li> 01201007452 -</li>
+                    <li> yasminmohsin60@gmail.com </li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copyRight">Copyright &copy; 2021OFFE HOUSE .All Rights Recerved </p>
+
+
+    </footer>
+
+
+
+
+
+    <!-- scripts resources -->
+    <script src="../BOOTSTRAP/js/JQuery-3.3.1.min.js"></script>
+    <script src="../BOOTSTRAP/js/popper.js"></script>
+    <script src="../BOOTSTRAP/js/bootstrap.min.js"></script>
+    <script src="../BOOTSTRAP/js/brands.min.js"></script>
+    <script src="../BOOTSTRAP/js/fontawesome.min.js"></script>
+    <script src="../BOOTSTRAP/js/bootstrap.bundle.min.js"></script>
+    <script src="../BOOTSTRAP/js/solid.min.js"></script>
+</body>
+</html>

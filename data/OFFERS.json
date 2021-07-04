@@ -1,0 +1,22 @@
+[
+    {
+        "src":"../IMAGES/1.jpg",
+        "discount":"2 to 1",
+        "discription":"buy two cups of latte and get one coffee for free"
+    },
+    {
+        "src":"../IMAGES/2.jpg",
+        "discount":"-25% For MOCKA",
+        "discription":"Get 25% discount when you order Macchiato"
+    },
+    {
+        "src":"../IMAGES/3.jpg",
+        "discount":"Order one get one",
+        "discription":"Order Espresso and get another for free"
+    },
+    {
+        "src":"../IMAGES/4.jpg",
+        "discount":"Order one get one",
+        "discription":"Order latte and get one tea for free"
+    }
+]

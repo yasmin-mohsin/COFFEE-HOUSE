@@ -1,0 +1,65 @@
+.navBarDiv{
+    background-color: #c7a99a  !important;
+    height: 90px;
+}
+
+.imgLogo{
+    width: 5%;
+    height: 10%;
+    position: relative;
+    left: 5%;
+    
+}
+
+.navBarLi{
+    display: inline;
+    list-style: none;
+    font-size: larger;
+}
+
+.navBarLi:hover{
+    border: 1px solid #533a28;
+    background-color: #533a28;
+    border-radius: 40% 0%;
+}
+
+
+.navOptLinks:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.logInIcon{
+    font-size: small;
+    color: #25130f;
+    font-family: cursive;
+    margin-left: 0%;
+}
+
+.logInIcon:hover{
+    color: rgb(163, 30, 30);
+}
+
+@media (min-width: 700px){
+    .navOpt{
+        position: relative;
+        left: 20%;
+        top: 10px;
+    }
+
+    .navOptLinks{
+        font-size: larger;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #3e1a16;
+    }
+}
+
+@media (max-width:700px){
+    .navOptLinks{
+        font-size: medium;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #533a28;
+    }
+}

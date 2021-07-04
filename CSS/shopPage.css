@@ -1,0 +1,70 @@
+@font-face{
+    src: url(../fonts/TahtaDemo/Tahta\ Demo.otf);
+    font-family: TahtaDemo;
+}
+
+@font-face{
+    src: url(../fonts/joy-neon-4195936/Joy\ Neon\ Hollow.ttf);
+    font-family: joy-neon;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #edebed;
+}
+
+.headOffer{
+    font-family: TahtaDemo;
+    font-size: 60px;
+    font-weight: bolder;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+@media (min-width: 700px){
+    
+    .imgOff{
+        height: 350px;
+    }
+
+    .prodName{
+        font-family: joy-neon;
+        font-weight: bolder;
+        font-size: x-large;
+        color: #7e4704;
+    }
+
+    .prodDiscrip{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        font-weight: bolder;
+        color: #090806;
+        
+    }
+}
+
+@media (max-width:700px){
+    .imgOff{
+        height: 250px;
+    }
+
+    .prodName{
+        font-family: joy-neon;
+        font-weight: 700;
+        font-size: large;
+        color: #7e4704;
+    }
+
+    .prodDiscrip{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: small;
+        font-weight: bold;
+        color: #090806;
+        
+    }
+}
+

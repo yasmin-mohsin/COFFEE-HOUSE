@@ -1,0 +1,32 @@
+[
+    {
+        "src":"../IMAGES/Latte.jpg",
+        "prodName":"Latte",
+        "prodDiscription":"latte is comprised of a shot of espresso and steamed milk with just a touch of foam."
+    },
+    {
+        "src":"../IMAGES/Cappuccino.jpg",
+        "prodName":"Cappuccino",
+        "prodDiscription":"Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top"
+    },
+    {
+        "src":"../IMAGES/Espresso.jpg",
+        "prodName":"Espresso",
+        "prodDiscription":"An espresso shot can be served solo or used as the foundation of most coffee drinks"
+    },
+    {
+        "src":"../IMAGES/Americano.jpg",
+        "prodName":"Americano",
+        "prodDiscription":"With a similar flavor to black coffee, the americano consists of an espresso shot diluted in hot water."
+    },
+    {
+        "src":"../IMAGES/Doppio.jpg",
+        "prodName":"Doppio",
+        "prodDiscription":"A double shot of espresso, the doppio is perfect for putting extra pep in your step."
+    },
+    {
+        "src":"../IMAGES/coffe.jpg",
+        "prodName":"coffe",
+        "prodDiscription":"Now you can by the coffe and make your own."
+    }
+]
